@@ -1,9 +1,3 @@
-D = 0 # O igual é para atribuir valor para variavel
-# a == 0 # dois sinais de igual é para comparar 
-print ('valor de D : ', D )
-y=35e3 #Em Python, a expressão y = 35e3 representa a atribuição de um valor à variável y. Nesse caso, o valor atribuído é 35000. A notação e3 indica que o número é multiplicado por 10 elevado à terceira potência (ou seja, 10^3), resultando em 35000.
-#Portanto, após essa atribuição, a variável y terá o valor 35000.
-
 a = 'Gabriel'
 b = "Seja bem vindo"
 c = '''Lorem ipsum dolor sit amet,
