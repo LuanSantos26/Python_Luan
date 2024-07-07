@@ -1,7 +1,7 @@
 print('ola mundo')
 """======================
     isto é uma string multi lines,usada como bloco de comentarios      
-====================="""
+=====================""" # usando 3 aspas simples se cria uma string de multiplas linhas.
 
 a="Luan"
 b=5.3
