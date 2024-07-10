@@ -5,8 +5,8 @@ print(txt.format(idade))
 quantidade = 3
 item = "bolo"
 valor = 14.99
-meuPedido = "Eu quero {} pedaços de {} por {} reais."
-meuPedido2 = "Eu quero pagar {2} reais pelos {0} pedaços de {1}."
-#Esse metodo de roamatação é atribuidos por ordens das variaveis solicitadas sendo o 2 o valor, o 0 o item 
+meuPedido = "Eu quero {} pedacos de {} por {} reais."
+meuPedido2 = "Eu quero pagar {2} reais pelos {0} pedacos de {1}."
+#Esse metodo de formatação é atribuidos por ordens das variaveis solicitadas sendo o 2 o valor, o 0 o item e o 1 a quantidades, só mudando a ordem solicitada dos indices.
 print(meuPedido.format(quantidade, item, valor))
 print(meuPedido2.format(quantidade, item, valor))
