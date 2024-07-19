@@ -2,7 +2,7 @@ nome =input('Digite seu nome: ')
 idade = input('Digite sua idade: ')
 if nome  and idade  :
     print(f'seu nome é ',nome)
-    print(f'seu nome de tras para frente é ',nome [::1])
+    print(f'seu nome de tras para frente é ',nome [::-1])
     if ' ' in nome:
         print('seu nome contem espaços.')
     else:
