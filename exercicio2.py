@@ -23,6 +23,14 @@ Faça um programa que pergunte a hora ao usuário e, baseando-se no horário
 descrito, exiba a saudação apropriada. Ex. 
 Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 """
+def horas_agora();
+    try:
+        horas = input('Digite que horas são agora para saber o periodo do dia: ')
+        horas_inteiro = int(horas)
+        if horas_inteiro == < 11
+            print(f'Bom dia são {horas_inteiro} da manhã !')
+            
+
 
 """
 Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letras ou 
