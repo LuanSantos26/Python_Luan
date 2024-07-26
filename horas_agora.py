@@ -3,7 +3,7 @@ def horas_agora():
         horas = input('Digite que horas são agora para saber o periodo do dia: ')
         horas_inteiro = int(horas)
         if horas_inteiro <= 11:
-            print(f'Bom dia são {horas_inteiro} horas da manhã !')
+            print(f'Bom dia são {horas_inteiro} da manhã !')
         elif horas_inteiro <= 18:
             print(f'Boa tarde são {horas_inteiro} horas da tarde !')
         else:
