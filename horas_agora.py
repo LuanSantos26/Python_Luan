@@ -4,7 +4,7 @@ def horas_agora():
         horas_inteiro = int(horas)
         if horas_inteiro <= 11:
             print(f'Bom dia são {horas_inteiro} da manhã !')
-        elif horas_inteiro <= 18:
+        elif horas_inteiro <= 17:
             print(f'Boa tarde são {horas_inteiro} horas da tarde !')
         else:
             horas_inteiro <= 24
