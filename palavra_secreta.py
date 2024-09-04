@@ -1,4 +1,4 @@
-import os
+import os #importa um comando que serve para limpar o console.
 
 palavra_secreta = 'pokemon'
 letras_acertadas = ''
@@ -25,7 +25,7 @@ while True:
     print('palavra formada: ', palavra_formada)
 
     if palavra_formada == palavra_secreta:
-        os.system('cls')
+        os.system('cls') #usado para deixar o terminal limpo.
         print('você ganhou, PARABÉNS! ')
         print('A palavra era', palavra_secreta)
         print('Tentaivas: ', numero_tentativas)
