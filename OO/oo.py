@@ -1,20 +1,27 @@
-class Pessoa:#nomes de classes por padrão começa com as iniciais maiusculas.
-    def __init__(self, nome, idade, cpf, etinia, nacionalidade):# i __init__ é uma função de inicialização, qual a classe vai iniciar primeiro e self serve para fazer uma caracteristica do objeto ou a caracteristica dele.
+class Pessoa:
+    # A classe Pessoa representa uma pessoa com atributos básicos.
+    def __init__(self, nome, idade, cpf, etnia, nacionalidade):
+        # O método __init__ inicializa os atributos da pessoa.
         self.nome = nome
         self.idade = idade
         self.cpf = cpf
-        self.etinia = etinia
+        self.etnia = etnia
         self.nacionalidade = nacionalidade
+        #self refere-se à instância atual da classe e é usado para acessar variáveis que pertencem à classe.
         
-    def dormir (sono):
-        sono = input('A pessoa em questão esta com sono ? ')
-        if sono == 'sim':
-            print(f'Esta pessoa esta com sono, precisa dormir')
-        else: 
-            sono == 'não' 
-            print('Esta pessoa não esta com sono')
+    def dormir(self, sono):
+        # Normaliza a entrada para minúsculas e verifica as respostas.
+        sono = sono.lower()
+        if sono in ['sim', 's']:
+            print(f'{self.nome} está com sono, precisa dormir.')
+        elif sono in ['não', 'n', 'nao']:
+            print(f'{self.nome} não está com sono.')
+        else:
+            print('Por favor, responda apenas com "sim" ou "não".')
 
+# Criação de instâncias da classe Pessoa
 pessoa1 = Pessoa('Luan', 25, '48403233809', 'branco', 'Brasileiro')
-pessoa1.dormir()
-Pessoa2 = Pessoa('Bartolomeu', 53, '48434645947', 'pardo', 'Brasileiro')
+pessoa1.dormir('s')
 
+pessoa2 = Pessoa('Bartolomeu', 53, '48434645947', 'pardo', 'Brasileiro')
+pessoa2.dormir('Não')
