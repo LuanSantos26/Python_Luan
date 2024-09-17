@@ -4,7 +4,7 @@ Tipo list - Mutável
 Suporta vários valores de qualquer tipo
 Conhecimentos reutilizáveis - índices e fatiamento
 Métodos úteis:
-    append, insert, pop, del, clear, extend, +
+    append = adiciona um valor ao final da lista, insert, pop = remove o ultimo elemento da lista, del, clear, extend, +
 Create Read Update   Delete
 Criar, ler, alterar, apagar = lista[i] (CRUD)
 """
