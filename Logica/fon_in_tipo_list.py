@@ -2,9 +2,9 @@
 for in com listas
 """
 lista = ['Luan','Barto','Geraldina']
+lista.append('João')
+                      
+indices = range(len(lista))
 
-#for letra in 'ABC':
-    #print(letra)
-
-for nome in lista:
-    print(nome, type(nome))
+for indice in indices:
+    print(indice, lista[indice], type(lista[indice]))
