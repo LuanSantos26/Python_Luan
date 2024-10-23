@@ -2,6 +2,8 @@
 split e join com list e str
 split - divide uma string (list)
 join - une uma string
+strip - A funçãostrip() serve para remover os espaços em branco no início e no final de uma string,
+ retornando uma cópia formatada da string sem os espaços em branco do ínicio e final.
 """
 frase = '   Olha só que   , coisa interessante          '
 lista_frases_cruas = frase.split(',')
