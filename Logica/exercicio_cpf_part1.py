@@ -23,3 +23,14 @@ contrário disso:
 
 O primeiro dígito do CPF é 7
 """
+
+cpf = '74682489070'
+nove_digitos = cpf[:9]
+contado_regressivo = 10
+
+resultado = 0
+for digito in nove_digitos:
+    resultado += int(digito) * contado_regressivo
+    contado_regressivo -= 1
+digito -= ((resultado * 10) % 11)
+
