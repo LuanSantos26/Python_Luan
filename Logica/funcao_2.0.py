@@ -10,4 +10,4 @@ def soma(x, y):
     print(f'{x = }  y = {y}', '|', 'x + y = ', x + y )
 
 soma(1, 2)# 1 e 2 são considerados argumentos
-soma(2, 1)
+soma(x =2,y = 1)#argumentos nomeados, x = 2 e y = 1
